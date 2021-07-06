@@ -1,0 +1,54 @@
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #405065;
+}
+
+.search-value {
+  max-width: 500px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.form-control {
+  box-shadow: 0 10px 40px 0 #B0C1D9;
+}
+
+.Id-row{
+  min-width: 54px;
+}
+
+  .form-control::placeholder {
+    font-family: FontAwesome;
+  }
+
+  .reset-wrapper{
+    float: right;
+  }
+
+  .reset-btn{
+    position: absolute;
+    right: 7%;
+  }
+
+  .button {
+    padding: 1px 5px;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
